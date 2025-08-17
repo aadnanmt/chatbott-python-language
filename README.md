@@ -67,7 +67,7 @@ Proyek ini sangat ringan dan mudah untuk dijalankan.
 ### 🌐 Let's Connect
 
 <p align="left">
-  <a href="mailto:contact.aadnanmt@gmail.com" target="_blank">
+  <a href="mailto:aadnanmtcontact@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
   </a>
   <a href="https://t.me/aadnanmt" target="_blank">
@@ -78,7 +78,7 @@ Proyek ini sangat ringan dan mudah untuk dijalankan.
   </a>
 </p>
 
-This project is built and maintained by **Adnan**. Let's connect!
+This project is built and maintained by **Adnan and others**. Let's connect!
 
 [![GitHub](https://img.shields.io/badge/GitHub-Follow_Me-181717?style=for-the-badge&logo=github)](https://github.com/aadnannt)
 
