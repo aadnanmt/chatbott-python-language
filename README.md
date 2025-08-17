@@ -1,75 +1,85 @@
 <div align="center">
 
-# 🤖 Project Genesis ✨
+# 🤖 Project Genesis v1.0 ✨
 
-<p>The beginning of a smart, AI-powered chatbot designed to be more than just code. This is where ideas are born.</p>
+<p>Sebuah chatbot sederhana berbasis aturan (rule-based) yang dibuat dengan Python. Langkah pertama dalam perjalanan membangun sebuah AI.</p>
 
 <p>
-  <img src="https://img.shields.io/badge/Python-3.11%2B-blue?style=for-the-badge&logo=python" alt="Python Version">
-  <img src="https://img.shields.io/badge/Status-In_Development-green?style=for-the-badge" alt="Project Status">
+  <img src="https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python" alt="Python Version">
+  <img src="https://img.shields.io/badge/Status-Foundation-yellow?style=for-the-badge" alt="Project Status">
   <img src="https://img.shields.io/badge/License-MIT-purple?style=for-the-badge" alt="License">
 </p>
 
 </div>
 
----
+### 🚀 Tentang Proyek Ini
 
-### 🚀 About The Project
+**Project Genesis** adalah titik awal perjalananku dalam membuat chatbot. Versi saat ini adalah sebuah program *command-line* sederhana yang menunjukkan logika paling dasar dari sebuah bot: mengenali input dan memberikan respons.
 
-**Project Genesis** isn't just another chatbot. It's an exploration into the world of AI, prompt engineering, and creative automation. Born from a passion for technology and content, this project aims to be a smart companion that can generate ideas, assist with creative tasks, and learn along the way.
+Bot ini belum menggunakan AI. Sebaliknya, ia bekerja dengan cerdas menggunakan:
+* **Regular Expressions (`re`)** untuk mendeteksi pola kata kunci dalam sapaan atau ucapan perpisahan dari pengguna.
+* **Library `random`** untuk memilih respons secara acak dari daftar yang sudah disediakan, membuatnya terasa sedikit lebih dinamis.
 
-Think of it as a digital muse, ready to spark inspiration. This repo documents every step of that journey, from the first line of code to a fully-fledged AI entity.
+Tujuan dari tahap ini adalah untuk membangun fondasi yang kuat dalam memahami alur interaksi bot sebelum beralih ke teknologi yang lebih kompleks seperti *machine learning*.
 
-### ✨ Core Features (The Roadmap)
+### ✨ Fitur Saat Ini
 
-* **🧠 Smart Conversation:** Powered by modern language models.
-* **💡 Idea Generation:** A built-in engine for content, video, and project ideas.
-* **🧩 Modular Design:** Built to be easily expandable with new skills and APIs.
-* **⚡️ Automation Ready:** Designed to integrate with workflows and automate repetitive tasks.
+* **💬 Respons Berbasis Aturan:** Logika `if/else` sederhana untuk menangani input.
+* **🔍 Deteksi Kata Kunci:** Menggunakan Regex untuk mengenali berbagai variasi sapaan (`halo`, `haii`, `hello`) dan perpisahan (`bye`, `dadah`).
+* **🎲 Jawaban Acak:** Memberikan jawaban yang bervariasi untuk input yang sama agar tidak monoton.
+* **🖥️ Antarmuka Terminal:** Berinteraksi langsung melalui *command line* atau terminal.
 
-### 🛠️ Tech Stack & Tools
+### 🛠️ Teknologi yang Digunakan
 
-This project is built with a curated set of modern tools and technologies:
+Saat ini, proyek ini murni menggunakan library standar Python, jadi tidak memerlukan instalasi eksternal.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
----
+### ⚙️ Cara Menjalankan
 
-### ⚙️ Getting Started
+Proyek ini sangat ringan dan mudah untuk dijalankan.
 
-Ready to dive in and run your own version of Genesis? Here’s how to get it set up.
-
-#### **Prerequisites**
-
-Make sure you have Python 3.10 or higher installed on your system.
-
-#### **Installation**
-
-1.  **Clone the repo:**
+1.  **Clone repositori ini:**
     ```bash
-    git clone [https://github.com/aadnannt/chatbot-python-language.git](https://github.com/aadnannt/chatbot-python-language.git)
+    git clone https://github.com/aadnanmt/chatbott-python-language.git
     ```
-2.  **Navigate to the project directory:**
+2.  **Masuk ke direktori proyek:**
     ```bash
-    cd Project-Genesis
+    cd chatbott-python-language/Genesis-Project/
     ```
-3.  **Create a virtual environment (recommended):**
+3.  **Jalankan script-nya!**
+    *Tidak perlu instalasi apa-apa.* Cukup jalankan file `genesis_core.py` dengan Python.
     ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-    ```
-4.  **Install the required dependencies:**
-    ```bash
-    pip install -r requirements.txt 
-    # Note: requirements.txt needs to be created first!
+    python genesis_core.py
     ```
 
-### ▶️ How to Run
+<details>
+<summary><strong>💡 Project Philosophy</strong></summary>
 
-Once everything is installed, you can bring Genesis to life by running the core script:
+> This project is proof that everything great starts with a small step. Building from the most basic foundation—like `if/else` logic and Regex—is the best way to truly understand how complex systems work. *Master the basics, then innovate.*
 
-```bash
-python genesis_core.py
+</details>
+
+<div align="left">
+
+### 🌐 Let's Connect
+
+<p align="left">
+  <a href="mailto:contact.aadnanmt@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
+  </a>
+  <a href="https://t.me/aadnanmt" target="_blank">
+    <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
+  </a>
+  <a href="https://instagram.com/aadnanmt" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
+  </a>
+</p>
+
+This project is built and maintained by **Adnan**. Let's connect!
+
+[![GitHub](https://img.shields.io/badge/GitHub-Follow_Me-181717?style=for-the-badge&logo=github)](https://github.com/aadnannt)
+
+</div>
